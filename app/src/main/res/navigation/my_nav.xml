@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/userSetupFragment">
+
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.langley.workoutstattracker.fragments.HomeFragment"
+        android:label="Strength Tracker"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_userSetupFragment"
+            app:destination="@id/userSetupFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_workoutFragment"
+            app:destination="@id/workoutFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_userProfileFragment"
+            app:destination="@id/userProfileFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_exerciseLibraryFragment"
+            app:destination="@id/exerciseLibraryFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_completedExercisesFragment"
+            app:destination="@id/completedExercisesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_exerciseStatsFragment"
+            app:destination="@id/exerciseStatsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/workoutFragment"
+        android:name="com.langley.workoutstattracker.fragments.WorkoutFragment"
+        android:label="Exercise"
+        tools:layout="@layout/fragment_workout" >
+        <action
+            android:id="@+id/action_workoutFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userSetupFragment"
+        android:name="com.langley.workoutstattracker.fragments.UserSetupFragment"
+        android:label="User Setup"
+        tools:layout="@layout/fragment_user_setup" >
+        <action
+            android:id="@+id/action_userSetupFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/exerciseLibraryFragment"
+        android:name="com.langley.workoutstattracker.ExerciseLibraryFragment"
+        android:label="Exercise Library"
+        tools:layout="@layout/fragment_exercise_library" >
+        <action
+            android:id="@+id/action_exerciseLibraryFragment_to_workoutFragment"
+            app:destination="@id/workoutFragment" />
+        <action
+            android:id="@+id/action_exerciseLibraryFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userProfileFragment"
+        android:name="com.langley.workoutstattracker.UserProfileFragment"
+        android:label="User Profile"
+        tools:layout="@layout/fragment_user_profile" >
+        <action
+            android:id="@+id/action_userProfileFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/completedExercisesFragment"
+        android:name="com.langley.workoutstattracker.CompletedExercisesFragment"
+        android:label="Completed Exercises"
+        tools:layout="@layout/fragment_completed_exercises" >
+        <action
+            android:id="@+id/action_completedExercisesFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/exerciseStatsFragment"
+        android:name="com.langley.workoutstattracker.ExerciseStatsFragment"
+        android:label="Stats"
+        tools:layout="@layout/fragment_exercise_stats" >
+        <action
+            android:id="@+id/action_exerciseStatsFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>
