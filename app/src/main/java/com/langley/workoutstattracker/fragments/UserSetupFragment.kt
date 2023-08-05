@@ -6,7 +6,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
@@ -30,17 +29,7 @@ class UserSetupFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val view = inflater.inflate(R.layout.fragment_user_setup, container, false)
-
-        //appViewModel = ViewModelProvider(this)[ExerciseAppViewModel::class.java]
-        //binding = FragmentUserSetupBinding.inflate(inflater, container, false)
-
-
-//        binding.submitButton.setOnClickListener {
-//            insertUserToDatabase()
-//        }
-
-        return view
+        return inflater.inflate(R.layout.fragment_user_setup, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
