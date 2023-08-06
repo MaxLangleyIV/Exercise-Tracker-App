@@ -50,7 +50,7 @@
     </fragment>
     <fragment
         android:id="@+id/exerciseLibraryFragment"
-        android:name="com.langley.workoutstattracker.ExerciseLibraryFragment"
+        android:name="com.langley.workoutstattracker.fragments.ExerciseLibraryFragment"
         android:label="Exercise Library"
         tools:layout="@layout/fragment_exercise_library" >
         <action
@@ -62,7 +62,7 @@
     </fragment>
     <fragment
         android:id="@+id/userProfileFragment"
-        android:name="com.langley.workoutstattracker.UserProfileFragment"
+        android:name="com.langley.workoutstattracker.fragments.UserProfileFragment"
         android:label="User Profile"
         tools:layout="@layout/fragment_user_profile" >
         <action
@@ -71,7 +71,7 @@
     </fragment>
     <fragment
         android:id="@+id/completedExercisesFragment"
-        android:name="com.langley.workoutstattracker.CompletedExercisesFragment"
+        android:name="com.langley.workoutstattracker.fragments.CompletedExercisesFragment"
         android:label="Completed Exercises"
         tools:layout="@layout/fragment_completed_exercises" >
         <action
@@ -80,7 +80,7 @@
     </fragment>
     <fragment
         android:id="@+id/exerciseStatsFragment"
-        android:name="com.langley.workoutstattracker.ExerciseStatsFragment"
+        android:name="com.langley.workoutstattracker.fragments.ExerciseStatsFragment"
         android:label="Stats"
         tools:layout="@layout/fragment_exercise_stats" >
         <action
