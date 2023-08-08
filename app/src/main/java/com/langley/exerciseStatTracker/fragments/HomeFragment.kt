@@ -43,15 +43,18 @@ class HomeFragment : Fragment() {
         binding.exerciseLogButton.setOnClickListener {
             view.findNavController().navigate(R.id.action_homeFragment_to_completedExercisesFragment)
         }
+        binding.profileButton.setOnClickListener {
+            view.findNavController().navigate(R.id.action_homeFragment_to_userProfileFragment)
+        }
 
 
     }
 
     private fun checkUserProfile(view: View,context: Context){
-        val user_prefs = context.getSharedPreferences("user_prefs",MODE_PRIVATE)
-        val current_user_id = user_prefs.getInt("user_id",-1)
+        val userPrefs = context.getSharedPreferences("user_prefs",MODE_PRIVATE)
+        val currentUserId = userPrefs.getInt("user_id",-1)
 
-        if (current_user_id == -1){
+        if (currentUserId == -1){
             view.findNavController().navigate(R.id.action_homeFragment_to_userSetupFragment)
         }
         else {

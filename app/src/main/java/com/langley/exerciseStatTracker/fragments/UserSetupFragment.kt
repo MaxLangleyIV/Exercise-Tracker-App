@@ -52,12 +52,12 @@ class UserSetupFragment : Fragment() {
 
             val user = UserRecord(0, name, birthDate, bodyWeight)
             appViewModel.addUserRecord(user)
-            Toast.makeText(requireContext(),"User successfully added!", Toast.LENGTH_LONG).show()
+            Toast.makeText(requireContext(),"User successfully added!", Toast.LENGTH_SHORT).show()
 
             findNavController().navigate(R.id.action_userSetupFragment_to_homeFragment)
         }
         else {
-            Toast.makeText(requireContext(), "Please ensure all fields are filled.", Toast.LENGTH_LONG).show()
+            Toast.makeText(requireContext(), "Please ensure all fields are filled.", Toast.LENGTH_SHORT).show()
         }
 
     }
