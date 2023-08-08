@@ -1,4 +1,4 @@
-package com.langley.workoutstattracker
+package com.langley.exerciseStatTracker
 
 import org.junit.Test
 

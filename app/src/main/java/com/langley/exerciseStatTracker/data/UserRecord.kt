@@ -1,4 +1,4 @@
-package com.langley.workoutstattracker.data
+package com.langley.exerciseStatTracker.data
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

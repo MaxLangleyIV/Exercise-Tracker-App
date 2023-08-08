@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.langley.workoutstattracker.fragments.HomeFragment"
+        android:name="com.langley.exerciseStatTracker.fragments.HomeFragment"
         android:label="Strength Tracker"
         tools:layout="@layout/fragment_home" >
         <action
@@ -32,7 +32,7 @@
     </fragment>
     <fragment
         android:id="@+id/workoutFragment"
-        android:name="com.langley.workoutstattracker.fragments.WorkoutFragment"
+        android:name="com.langley.exerciseStatTracker.fragments.WorkoutFragment"
         android:label="Exercise"
         tools:layout="@layout/fragment_workout" >
         <action
@@ -41,7 +41,7 @@
     </fragment>
     <fragment
         android:id="@+id/userSetupFragment"
-        android:name="com.langley.workoutstattracker.fragments.UserSetupFragment"
+        android:name="com.langley.exerciseStatTracker.fragments.UserSetupFragment"
         android:label="User Setup"
         tools:layout="@layout/fragment_user_setup" >
         <action
@@ -50,7 +50,7 @@
     </fragment>
     <fragment
         android:id="@+id/exerciseLibraryFragment"
-        android:name="com.langley.workoutstattracker.fragments.ExerciseLibraryFragment"
+        android:name="com.langley.exerciseStatTracker.fragments.ExerciseLibraryFragment"
         android:label="Exercise Library"
         tools:layout="@layout/fragment_exercise_library" >
         <action
@@ -62,7 +62,7 @@
     </fragment>
     <fragment
         android:id="@+id/userProfileFragment"
-        android:name="com.langley.workoutstattracker.fragments.UserProfileFragment"
+        android:name="com.langley.exerciseStatTracker.fragments.UserProfileFragment"
         android:label="User Profile"
         tools:layout="@layout/fragment_user_profile" >
         <action
@@ -71,7 +71,7 @@
     </fragment>
     <fragment
         android:id="@+id/completedExercisesFragment"
-        android:name="com.langley.workoutstattracker.fragments.CompletedExercisesFragment"
+        android:name="com.langley.exerciseStatTracker.fragments.CompletedExercisesFragment"
         android:label="Completed Exercises"
         tools:layout="@layout/fragment_completed_exercises" >
         <action
@@ -80,7 +80,7 @@
     </fragment>
     <fragment
         android:id="@+id/exerciseStatsFragment"
-        android:name="com.langley.workoutstattracker.fragments.ExerciseStatsFragment"
+        android:name="com.langley.exerciseStatTracker.fragments.ExerciseStatsFragment"
         android:label="Stats"
         tools:layout="@layout/fragment_exercise_stats" >
         <action

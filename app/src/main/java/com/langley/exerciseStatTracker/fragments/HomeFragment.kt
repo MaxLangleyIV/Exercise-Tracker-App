@@ -1,4 +1,4 @@
-package com.langley.workoutstattracker.fragments
+package com.langley.exerciseStatTracker.fragments
 
 import android.content.Context
 import android.content.Context.MODE_PRIVATE
@@ -9,10 +9,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.findNavController
-import com.langley.workoutstattracker.R
-import com.langley.workoutstattracker.data.ExerciseAppViewModel
-import com.langley.workoutstattracker.data.UserRecord
-import com.langley.workoutstattracker.databinding.FragmentHomeBinding
+import com.langley.exerciseStatTracker.R
+import com.langley.exerciseStatTracker.data.ExerciseAppViewModel
+import com.langley.exerciseStatTracker.data.UserRecord
+import com.langley.exerciseStatTracker.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
     private lateinit var appViewModel: ExerciseAppViewModel

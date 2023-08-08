@@ -1,4 +1,4 @@
-package com.langley.workoutstattracker.fragments
+package com.langley.exerciseStatTracker.fragments
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -9,10 +9,10 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
-import com.langley.workoutstattracker.R
-import com.langley.workoutstattracker.data.ExerciseAppViewModel
-import com.langley.workoutstattracker.data.UserRecord
-import com.langley.workoutstattracker.databinding.FragmentUserSetupBinding
+import com.langley.exerciseStatTracker.R
+import com.langley.exerciseStatTracker.data.ExerciseAppViewModel
+import com.langley.exerciseStatTracker.data.UserRecord
+import com.langley.exerciseStatTracker.databinding.FragmentUserSetupBinding
 
 
 class UserSetupFragment : Fragment() {

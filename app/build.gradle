@@ -8,11 +8,11 @@ plugins {
 }
 
 android {
-    namespace 'com.langley.workoutstattracker'
+    namespace 'com.langley.exerciseStatTracker'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.langley.workoutstattracker"
+        applicationId "com.langley.exerciseStatTracker"
         minSdk 26
         targetSdk 33
         versionCode 1

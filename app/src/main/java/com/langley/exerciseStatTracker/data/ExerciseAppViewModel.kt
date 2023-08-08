@@ -1,4 +1,4 @@
-package com.langley.workoutstattracker.data
+package com.langley.exerciseStatTracker.data
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
