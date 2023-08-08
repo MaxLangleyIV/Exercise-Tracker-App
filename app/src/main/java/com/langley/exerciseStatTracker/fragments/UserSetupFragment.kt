@@ -1,5 +1,6 @@
 package com.langley.exerciseStatTracker.fragments
 
+import android.content.Context
 import android.os.Bundle
 import android.text.TextUtils
 import androidx.fragment.app.Fragment
@@ -53,6 +54,10 @@ class UserSetupFragment : Fragment() {
             val user = UserRecord(0, name, birthDate, bodyWeight)
             appViewModel.addUserRecord(user)
             Toast.makeText(requireContext(),"User successfully added!", Toast.LENGTH_SHORT).show()
+
+            val userPrefs = context?.getSharedPreferences("user_prefs", Context.MODE_PRIVATE)
+            val userPrefsEditor = userPrefs?.edit()
+            userPrefsEditor?.putInt("user_id", user.id)?.apply()
 
             findNavController().navigate(R.id.action_userSetupFragment_to_homeFragment)
         }

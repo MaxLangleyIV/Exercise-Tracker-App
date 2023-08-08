@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.findNavController
 import com.langley.exerciseStatTracker.R
@@ -34,6 +35,7 @@ class HomeFragment : Fragment() {
         appViewModel = ViewModelProvider(this)[ExerciseAppViewModel::class.java]
         binding = FragmentHomeBinding.bind(view)
 
+        checkUserProfile(view)
         //user= appViewModel.readUserRecords().
 
         binding.selectWorkoutButton.setOnClickListener {
@@ -50,15 +52,17 @@ class HomeFragment : Fragment() {
 
     }
 
-    private fun checkUserProfile(view: View,context: Context){
-        val userPrefs = context.getSharedPreferences("user_prefs",MODE_PRIVATE)
+    private fun checkUserProfile(view: View){
+        val userPrefs = view.context.getSharedPreferences("user_prefs",MODE_PRIVATE)
         val currentUserId = userPrefs.getInt("user_id",-1)
 
         if (currentUserId == -1){
+            Toast.makeText(requireContext(), "id = -1", Toast.LENGTH_SHORT).show()
             view.findNavController().navigate(R.id.action_homeFragment_to_userSetupFragment)
         }
         else {
-
+            Toast.makeText(requireContext(), "User found: ID = $currentUserId", Toast.LENGTH_SHORT).show()
+            return
         }
 
     }
