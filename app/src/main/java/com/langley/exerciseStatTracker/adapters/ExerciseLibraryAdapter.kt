@@ -12,10 +12,12 @@ class ExerciseLibraryAdapter: RecyclerView.Adapter<ExerciseLibraryAdapter.Exerci
     class ExerciseViewHolder(view: View): RecyclerView.ViewHolder(view) {
         val nameView: TextView
         val bodyPartsView: TextView
+        val descriptionView: TextView
 
         init {
             nameView = view.findViewById(R.id.exerciseName)
             bodyPartsView = view.findViewById(R.id.exerciseBodyParts)
+            descriptionView = view.findViewById(R.id.descriptionView)
         }
     }
 
@@ -35,6 +37,7 @@ class ExerciseLibraryAdapter: RecyclerView.Adapter<ExerciseLibraryAdapter.Exerci
 
         holder.nameView.text = currentItem.name
         holder.bodyPartsView.text = currentItem.bodyRegion
+        holder.descriptionView.text = currentItem.description
 
 
 

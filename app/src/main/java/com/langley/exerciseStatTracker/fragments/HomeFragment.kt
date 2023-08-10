@@ -35,8 +35,8 @@ class HomeFragment : Fragment() {
         appViewModel = ViewModelProvider(this)[ExerciseAppViewModel::class.java]
         binding = FragmentHomeBinding.bind(view)
 
-        checkUserProfile(view)
-        //user= appViewModel.readUserRecords().
+        val userID = checkUserProfile(view)
+
 
         binding.selectWorkoutButton.setOnClickListener {
             view.findNavController().navigate(R.id.action_homeFragment_to_exerciseLibraryFragment)
@@ -52,7 +52,7 @@ class HomeFragment : Fragment() {
 
     }
 
-    private fun checkUserProfile(view: View){
+    private fun checkUserProfile(view: View): Int {
         val userPrefs = view.context.getSharedPreferences("user_prefs",MODE_PRIVATE)
         val currentUserId = userPrefs.getInt("user_id",-1)
 
@@ -62,9 +62,9 @@ class HomeFragment : Fragment() {
         }
         else {
             Toast.makeText(requireContext(), "User found: ID = $currentUserId", Toast.LENGTH_SHORT).show()
-            return
+            return currentUserId
         }
-
+        return currentUserId
     }
 
 
