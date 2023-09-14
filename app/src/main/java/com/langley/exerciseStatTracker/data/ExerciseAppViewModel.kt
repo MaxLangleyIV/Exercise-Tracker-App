@@ -1,11 +1,13 @@
 package com.langley.exerciseStatTracker.data
 
 import android.app.Application
+import androidx.appcompat.app.ActionBarDrawerToggle.Delegate
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import kotlin.properties.Delegates
 
 
 class ExerciseAppViewModel(application: Application): AndroidViewModel(application) {
@@ -81,13 +83,14 @@ class ExerciseAppViewModel(application: Application): AndroidViewModel(applicati
         return exerciseSchedules
     }
 
+    fun readUserRecords(): LiveData<List<UserRecord>>{
+        return userRecords
+    }
+
     fun addUserRecord(userRecord: UserRecord){
         viewModelScope.launch(Dispatchers.IO){
             repository.addUserRecord(userRecord)
         }
     }
 
-    fun readUserRecords(): LiveData<List<UserRecord>>{
-        return userRecords
-    }
 }

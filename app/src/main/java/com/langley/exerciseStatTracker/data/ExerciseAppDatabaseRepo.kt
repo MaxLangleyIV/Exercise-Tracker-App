@@ -30,4 +30,11 @@ class ExerciseAppDatabaseRepo(
     suspend fun addUserRecord(userRecord: UserRecord){
         userRecordDao.addUserRecord(userRecord)
     }
+
+    suspend fun getUserById(userId: Int): UserRecord{
+        for (user in readUserRecords.value!!){
+            if (userId == user.id) return user
+        }
+        return UserRecord(-1,"Unknown User", "0","0")
+    }
 }
