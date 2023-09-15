@@ -10,3 +10,7 @@
  6. Optional: Provide a cooldown timer when a set is marked as completed.
  7. Allow the user to create a schedule of routines, and the app should keep track of what day of the schedule the user is on.
     The schedule can be day specific or simply a cycle with no tie to any specific day or day interval.
+ 8. Provide quick access statistical analysis based on the total body of exercise information recorded.
+ 9. Provide quick access to metrics and milestones based on the total body of exercise information reported. (E.g. total reps performed for a given exercise, total weight moved, maximum weight moved)
+    
+    
