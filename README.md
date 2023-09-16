@@ -13,5 +13,6 @@
  8. Provide quick access statistical analysis based on the total body of exercise information recorded.
  9. Provide quick access to metrics and milestones based on the total body of exercise information reported. (E.g. total reps performed for a given exercise, total weight moved, maximum weight moved)
  10. Utilize advertisements to monetize the application.
+ 11. Allow user to purchase the app to remove advertisements.
     
     
