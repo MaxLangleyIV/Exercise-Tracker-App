@@ -2,6 +2,7 @@
  Android application for tracking your workouts and relevant metrics. Replacing tradition hand written journal logs with an intuitive exercise tracking application. 
 
  Requirements:
+ 
  1. Record exercises performed (similar to how they may be recorded in a workout journal, with sets, reps, weight used, and other potential attributes).
  2. Select from predefined common exercises.
  3. Input custom exercises.
@@ -17,7 +18,8 @@
  12. Allow user to purchase the app to remove advertisements.
 
 Specifications:
-Utilize ROOM database for client records and predefined exercises, routines and schedules.
 
+Utilize ROOM database for client records and predefined exercises, routines and schedules.
+Utilize Android Jetpack Compose for responsive native ui.
     
     
