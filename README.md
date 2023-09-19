@@ -19,8 +19,7 @@
 
 Specifications:
 
-Utilize ROOM database for client records and predefined exercises, routines and schedules.
-
-Utilize Android Jetpack Compose for responsive native ui.
+1. Utilize ROOM database for client records and predefined exercises, routines and schedules.
+2. Utilize Android Jetpack Compose for responsive native ui.
     
     
