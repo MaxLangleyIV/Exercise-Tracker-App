@@ -15,5 +15,9 @@
  10. User data must be privately stored.
  11. Utilize advertisements to monetize the application.
  12. Allow user to purchase the app to remove advertisements.
+
+Specifications:
+Utilize ROOM database for client records and predefined exercises, routines and schedules.
+
     
     
