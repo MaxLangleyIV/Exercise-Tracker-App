@@ -16,6 +16,8 @@
  10. User data must be privately stored.
  11. Utilize advertisements to monetize the application.
  12. Allow user to purchase the app to remove advertisements.
+ 13. Allow paid users to back up their data to the cloud.
+ 14. Allow paid users to synchronize multiple devices to the cloud.
 
 Specifications:
 
