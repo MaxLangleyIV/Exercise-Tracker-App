@@ -21,5 +21,8 @@ Specifications:
 
 1. Utilize ROOM database for client records and predefined exercises, routines and schedules.
 2. Utilize Android Jetpack Compose for responsive native ui.
+3. Use Firebaset to store cloud data.
+4. Exercises, routines, and schedules must contain only primitive data such as strings, intergers, floats, and booleans.
+
     
     
