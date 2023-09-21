@@ -26,6 +26,7 @@ Specifications:
 3. Use Firebaset to store cloud data.
 4. Exercises, routines, and schedules must contain only primitive data such as strings, intergers, floats, and booleans.
 5. User data will be stored locally on the client's device.
+6. The app must comply with the requirements in the Google Play Data Safety form. 
 
 
     
