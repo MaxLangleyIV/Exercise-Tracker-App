@@ -32,12 +32,18 @@
 9. User data will be stored locally on the client's device.
 10. The app must comply with the requirements in the Google Play Data Safety form.
 
-# Fragments (Screens / Pages):
+## Fragments (Screens / Pages):
 1. **Homepage**:
 2. **User Profile**:
 3. **Exercise Library**:
-4. **Current Exercise**:
-5. **Completed Exercises**:
+4. **Exercise Definition**:
+5. **Exercise Routine**:
+6. **Exercise Schedule**:
+7. **Create / Edit Exercise Definition**:
+8. **Create / Edit Exercise Routine**:
+9. **Create / Edit Exercise Scchedule**:
+10. **Current Exercise**:
+11. **Completed Exercises**:
 
 
 
