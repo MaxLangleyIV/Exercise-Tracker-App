@@ -21,13 +21,19 @@
 
 Specifications:
 
-1. The application will be built natively, using Kotlin and Java, in Android Studio.
-2. Utilize ROOM database for client records and predefined exercises, routines and schedules.
-3. Utilize Android Jetpack Compose for responsive native ui.
-4. Use Firebaset to store cloud data.
-5. Exercises, routines, and schedules must contain only primitive data such as strings, intergers, floats, and booleans.
-6. User data will be stored locally on the client's device.
-7. The app must comply with the requirements in the Google Play Data Safety form.
+1. The application will be built using Kotlin and Java, in Android Studio.
+2. The application pages will be implemented as Fragments held by the MainActivity.
+3. User navigation will be implemented using the Android Navigation component NavGraph.
+4. Utilize ROOM database for client records and predefined exercises, routines and schedules.
+5. As per the Android developer best practices, a Repository class to hand queries.
+6. Utilize Android Jetpack Compose for responsive native ui.
+7. Use Firebaset to store cloud data.
+8. Exercises, routines, and schedules must contain only primitive data such as strings, intergers, floats, and booleans.
+9. User data will be stored locally on the client's device.
+10. The app must comply with the requirements in the Google Play Data Safety form.
+
+
+
 
 
 
