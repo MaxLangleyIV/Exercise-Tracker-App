@@ -27,7 +27,7 @@
 4. Utilize ROOM database for client records and predefined exercises, routines and schedules.
 5. As per the Android developer best practices, a Repository class to hand queries.
 6. Utilize Android Jetpack Compose for responsive native ui.
-7. Use Firebaset to store cloud data.
+7. Use Firebase to store cloud data.
 8. Exercises, routines, and schedules must contain only primitive data such as strings, intergers, floats, and booleans.
 9. User data will be stored locally on the client's device.
 10. The app must comply with the requirements in the Google Play Data Safety form.
@@ -44,6 +44,9 @@
 9. **Create / Edit Exercise Scchedule**:
 10. **Current Exercise**:
 11. **Completed Exercises**:
+
+## TO DO:
+
 
 
 
