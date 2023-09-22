@@ -1,7 +1,7 @@
 # Exercise-Tracker-App
  Android application for tracking your workouts and relevant metrics. Replacing tradition hand written journal logs with an intuitive exercise tracking application. 
 
- Requirements:
+## Requirements:
  
  1. Record exercises performed (similar to how they may be recorded in a workout journal, with sets, reps, weight used, and other potential attributes).
  2. Select from predefined common exercises.
@@ -19,7 +19,7 @@
  13. Allow paid users to back up their data to the cloud.
  14. Allow paid users to synchronize multiple devices to the cloud.
 
-Specifications:
+## Specifications:
 
 1. The application will be built using Kotlin and Java, in Android Studio.
 2. The application pages will be implemented as Fragments held by the MainActivity.
@@ -31,6 +31,13 @@ Specifications:
 8. Exercises, routines, and schedules must contain only primitive data such as strings, intergers, floats, and booleans.
 9. User data will be stored locally on the client's device.
 10. The app must comply with the requirements in the Google Play Data Safety form.
+
+# Fragments (Screens / Pages):
+1. **Homepage**:
+2. **User Profile**:
+3. **Exercise Library**:
+4. **Current Exercise**:
+5. **Completed Exercises**:
 
 
 
