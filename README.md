@@ -46,6 +46,10 @@
 11. **Completed Exercises**:
 
 ## TO DO:
+1. Draft User Stories 
+2. Create User Story Map
+3. Refine requirements and specifications
+   
 
 
 
