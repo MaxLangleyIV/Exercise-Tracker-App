@@ -45,12 +45,14 @@
 10. **Current Exercise**:
 11. **Completed Exercises**:
 
-## Current Plan:
-1. Draft User Stories 
-2. Create User Story Map
+## Next Steps:
+1. Draft User Stories.
+2. Create User Story Map.
 3. Refine requirements and specifications
-4. Create Product Backlog
-5. Identify first sprint components from Backlog.
+4. Create Product Backlog.
+5. Sprint planning session.
+6. Sprint iteration.
+7. Sprint review.
    
 
 
