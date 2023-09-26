@@ -45,10 +45,12 @@
 10. **Current Exercise**:
 11. **Completed Exercises**:
 
-## TO DO:
+## Current Plan:
 1. Draft User Stories 
 2. Create User Story Map
 3. Refine requirements and specifications
+4. Create Product Backlog
+5. Identify first sprint components from Backlog.
    
 
 
