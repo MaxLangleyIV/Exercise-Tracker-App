@@ -54,10 +54,10 @@
 6. Sprint review.
 7. Determine rough velocity of development by measure of features completed during the sprint.
 8. Perform backlog grooming.
-9. Perpare for sprint 1.
+9. Prepare for sprint 1.
 10. Perform sprint 1
 11. Review sprint 1.
-12. Repeate steps 8 - 12.
+12. Repeat steps 8 - 12.
 
    
 
