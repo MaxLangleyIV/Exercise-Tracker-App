@@ -48,12 +48,16 @@
 ## Next Steps:
 1. Draft User Stories.
 2. Create User Story Map.
-3. Refine requirements and specifications
-4. Create Product Backlog.
-5. Sprint 0 planning session.
-6. Sprint 0 iteration.
-7. Sprint review.
-8. Determine rough velocity of development by measure of features completed during the sprint.
+3. Create Product Backlog.
+4. Sprint 0 planning session.
+5. Sprint 0 iteration.
+6. Sprint review.
+7. Determine rough velocity of development by measure of features completed during the sprint.
+8. Perform backlog grooming.
+9. Perpare for sprint 1.
+10. Perform sprint 1
+11. Review sprint 1.
+12. Repeate steps 8 - 12.
 
    
 
