@@ -50,9 +50,11 @@
 2. Create User Story Map.
 3. Refine requirements and specifications
 4. Create Product Backlog.
-5. Sprint planning session.
-6. Sprint iteration.
+5. Sprint 0 planning session.
+6. Sprint 0 iteration.
 7. Sprint review.
+8. Determine rough velocity of development by measure of features completed during the sprint.
+
    
 
 
