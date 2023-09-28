@@ -1,3 +1,8 @@
 User Stories - Initial Draft:
 
 1. As a user I want to record my exercises performed in a database, so that I may reference and analyze them later.
+
+Acceptance Tests:
+As a user I can mark an exercise as completed and it will be added to the database of completed exercises.
+If I close and open the app the completed exercises will persist.
+As a user I can view a list of the completed exercises I have marked as completed.
