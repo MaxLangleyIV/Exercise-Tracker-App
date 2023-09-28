@@ -6,3 +6,9 @@ Acceptance Tests:
 As a user I can mark an exercise as completed and it will be added to the database of completed exercises.
 If I close and open the app the completed exercises will persist.
 As a user I can view a list of the completed exercises I have marked as completed.
+
+2. As a user I want to select a predefined exercise to perform and mark as completed, so that I can add that exercise to my database of completed exercises.
+
+Acceptance Tests:
+Within the app I can select a predefined exercise from a list and mark it as completed.
+The completed exercise will be reflected in the list of completed exercises
