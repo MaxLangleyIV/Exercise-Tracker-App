@@ -22,3 +22,14 @@ Acceptance Tests:
 Within the app a user can fill out the information for a new custom exercise.
 The new custom exercise will be reflected in the list of predefined exercises permanently. 
 __________________________________________________________________________________________________________________
+
+4. As a user I want to browse a list of predefined exercise routines, so that I may select one to follow as a guided exercise session.
+
+Acceptance Tests:
+A user can access a list of exercise routines, which contain a series of predefined (or custom) exercises.
+__________________________________________________________________________________________________________________
+
+5. As a user I want to browse a list of predefined exercise routine schedules, so that I may select one to follow as a long term exercise schedule.
+
+Acceptance Tests:
+__________________________________________________________________________________________________________________
