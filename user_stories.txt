@@ -32,4 +32,12 @@ ________________________________________________________________________________
 5. As a user I want to browse a list of predefined exercise routine schedules, so that I may select one to follow as a long term exercise schedule.
 
 Acceptance Tests:
+A user can access a list of exercise schedules, which contain a series of predefined (or custom) exercise routines.
+__________________________________________________________________________________________________________________
+
+6. As a user I want to define custom exercise routines, so that I can add that routine to the list of predefined exercise routines.
+
+Acceptance Tests:
+A user can fill out the information to create a custom exercise routine.
+The custom exercise routine can be added to the list of predefined routines.
 __________________________________________________________________________________________________________________
