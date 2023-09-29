@@ -48,3 +48,10 @@ Acceptance Tests:
 A user can fill out the information to create a custom exercise schedule.
 The custom exercise schedule can be added to the list of predefined schedules.
 __________________________________________________________________________________________________________________
+
+8. As a user I want to check my current exercise schedule day, so that I can perform and record the scheduled routine for that day.
+
+Acceptance Tests:
+A user can see their currently selected exercise schedule.
+A user can initiate a workout routine from the selected exercise schedule.
+__________________________________________________________________________________________________________________
