@@ -49,7 +49,8 @@ A user can fill out the information to create a custom exercise schedule.
 The custom exercise schedule can be added to the list of predefined schedules.
 __________________________________________________________________________________________________________________
 
-8. As a user I want to check my current exercise schedule day, so that I can perform and record the scheduled routine for that day.
+8. As a user I want to initiate an exercise straight from the homepage, so that I don't have to open the library and search through it for my most common exercises.
+
 
 Acceptance Tests:
 A user can see their currently selected exercise schedule.
