@@ -53,6 +53,6 @@ ________________________________________________________________________________
 
 
 Acceptance Tests:
-A user can see their currently selected exercise schedule.
-A user can initiate a workout routine from the selected exercise schedule.
+A user can see and select from their most common exercises on their homepage.
+A user can initiate a workout from their homepage.
 __________________________________________________________________________________________________________________
