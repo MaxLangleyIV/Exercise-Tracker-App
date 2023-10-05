@@ -41,15 +41,7 @@ A user can fill out the information to create a custom exercise schedule.
 The custom exercise schedule can be added to the list of predefined schedules.
 __________________________________________________________________________________________________________________
 
-7. As a user I want to initiate an exercise straight from the homepage, so that I don't have to open the library and search through it for my most common exercises.
-
-
-Acceptance Tests:
-A user can see and select from their most common exercises on their homepage.
-A user can initiate a workout from their homepage.
-__________________________________________________________________________________________________________________
-
-8. As a user I want to record exercises performed in a database, so that I may reference and analyze them later.
+7. As a user I want to record exercises performed in a database, so that I may reference and analyze them later.
 
 Acceptance Tests:
 As a user I can mark an exercise as completed and it will be added to the database of completed exercises.
@@ -57,7 +49,15 @@ If I close and open the app the completed exercises will persist.
 As a user I can view a list of the completed exercises I have marked as completed.
 __________________________________________________________________________________________________________________
 
-9. As a user I want to , so that I .
+8. As a user I want to initiate an exercise straight from the homepage, so that I don't have to open the library and search through it for my most common exercises.
+
+
+Acceptance Tests:
+A user can see and select from their most common exercises on their homepage.
+A user can initiate a workout from their homepage.
+__________________________________________________________________________________________________________________
+
+9. As a user I want to view a page full of analytics derived from my exercises, with the ability to filter by time periods, so that I can make educated decisions regarding the efficacy my training.
 
 
 Acceptance Tests:
