@@ -1,11 +1,11 @@
-Iteration 0
+# Iteration 0
 Duration: 1 week
 
-Backlog Items:
+## Backlog Items:
 1. As a user I want to browse a list of predefined exercises, so that I may select one to read and / or perform.
 7. As a user I want to record exercises performed in a database, so that I may reference and analyze them later.
 
-High Level Steps:
+## High Level Steps:
 1. Design format for exercises and for exercise records (What sort of data might one have which the other will not?)
 2. Design layout for exercise library.
 3. Design layout for exercise records library.
